@@ -1,0 +1,16 @@
+https://docs.barzahlen.de/api/v2
+https://blogs.sap.com/2015/03/25/formatconversionbean-one-bean-to-rule-them-all/
+https://blogs.sap.com/2015/03/17/jsontransformbean-part-1-converting-json-content-to-xml/
+https://blogs.sap.com/2015/03/18/jsontransformbean-part-2-converting-xml-to-json-content/
+https://blogs.sap.com/2016/01/22/setup-comequalizexpiafmodules-adapter-module-project-in-nwds-easily-using-egit/
+https://github.com/engswee/equalize-xpi-modules
+
+https://github.com/engswee
+
+https://blogs.sap.com/2014/10/01/standalone-testing-of-adapter-module-in-nwds/
+https://blogs.sap.com/2016/02/05/using-junit-to-automate-unit-testing-regression-of-adapter-module/
+https://github.com/engswee/equalize-xpi-tester
+
+
+https://blogs.sap.com/2014/08/08/pi-74-adapter-module-creation-using-ejb-30/
+https://blogs.sap.com/2015/01/29/create-sap-pi-adapter-modules-in-ejb-30-standard/
