@@ -14,3 +14,6 @@ https://github.com/engswee/equalize-xpi-tester
 
 https://blogs.sap.com/2014/08/08/pi-74-adapter-module-creation-using-ejb-30/
 https://blogs.sap.com/2015/01/29/create-sap-pi-adapter-modules-in-ejb-30-standard/
+
+https://blogs.sap.com/2016/04/29/demystifying-custom-adapter-development-part-1a-cloning-the-sample-jca-adapter/
+https://blogs.sap.com/2016/05/09/demystifying-custom-adapter-development-part-1b-cloning-the-sample-jca-adapter/
