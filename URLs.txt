@@ -17,3 +17,11 @@ https://blogs.sap.com/2015/01/29/create-sap-pi-adapter-modules-in-ejb-30-standar
 
 https://blogs.sap.com/2016/04/29/demystifying-custom-adapter-development-part-1a-cloning-the-sample-jca-adapter/
 https://blogs.sap.com/2016/05/09/demystifying-custom-adapter-development-part-1b-cloning-the-sample-jca-adapter/
+
+
+Receiver Parallelization
+https://help.sap.com/saphelp_nw75/helpdata/en/73/faefdd56194afe97b47ca5067ca666/frameset.htm
+https://help.sap.com/viewer/5cf7d2de571a45cc81f91261668b7361/7.5.10/en-US/73faefdd56194afe97b47ca5067ca666.html
+
+Elster FI
+https://launchpad.support.sap.com/#/notes/1802839
