@@ -6,16 +6,17 @@ import com.sap.aii.mappingtool.tf.rt.ResultListImpl;
 /**
  * Helper class for SAP PI / PO mapping trace
  * 
- * @author Michael Havemester
- * @version 1.0
- * 
- * A mapping can use an instance of AbstractTrace to add messages to the
+ * <p>A mapping can use an instance of AbstractTrace to add messages to the
  * trace. There are three trace levels info, warning and debug. You can
  * display the messages that you write to the trace with these methods in
  * the test environment of interface mappings, for example. Since you can
  * also set a trace level for each pipeline in the Integration Engine, it
  * depends on this setting if trace messages are written to the trace header
  * of the message at runtime. For details see online documentation.
+
+ * @author Michael Havemester
+ * @version 1.0
+ * 
  */
 
 public class TraceImpl extends AbstractTrace {
@@ -23,7 +24,7 @@ public class TraceImpl extends AbstractTrace {
 	/**
 	 * Add a message with trace level debug to the trace.
 	 * 
-	 * @param message for trace
+	 * @param message trace message
  	 */
 	
 	@Override
@@ -36,7 +37,7 @@ public class TraceImpl extends AbstractTrace {
 	 * Add a message with trace level debug to the trace and the
 	 * stacktrace of throwable.
 	 * 
-	 * @param message for trace
+	 * @param message trace message
 	 * @param throwable exception
  	 */
 	
@@ -49,7 +50,7 @@ public class TraceImpl extends AbstractTrace {
 	/**
 	 * Add a message with trace level info to the trace.
 	 * 
-	 * @param message for trace
+	 * @param message trace message
 	 */
 	
 	@Override
@@ -62,7 +63,7 @@ public class TraceImpl extends AbstractTrace {
 	 * Add a message with trace level info to the trace and the
 	 * stacktrace of throwable.
 	 * 
-	 * @param message for trace
+	 * @param message trace message
 	 * @param throwable exception
 	 */
 	
@@ -75,7 +76,7 @@ public class TraceImpl extends AbstractTrace {
 	/**
 	 * Add only in test mode a message with trace level debug to the trace.
 	 * 
-	 * @param message for trace
+	 * @param message trace message
 	 */
 	
 	@Override
@@ -88,7 +89,7 @@ public class TraceImpl extends AbstractTrace {
 	 * Add only in test mode a message with trace level debug to the trace
 	 * and the stacktrace of throwable.
 	 * 
-	 * @param message for trace
+	 * @param message trace message
 	 * @param throwable exception
 	 */
 
@@ -100,7 +101,7 @@ public class TraceImpl extends AbstractTrace {
 	/**
 	 * Add a message with trace level warning to the trace.
 	 * 
-	 * @param message for trace
+	 * @param message trace message
 	 */
 	
 	@Override
@@ -141,7 +142,7 @@ public class TraceImpl extends AbstractTrace {
 	 * the stacktrace of throwable.
 	 *  
 	 * @param level trace level
-	 * @param message for trace
+	 * @param message trace message
 	 * @param throwable exception
 	 */
 	
@@ -157,7 +158,7 @@ public class TraceImpl extends AbstractTrace {
 	/**
 	 * Print ResultList to stdout
 	 *  
-	 * @param message text
+	 * @param message trace message
 	 * @param result ResultList
 	 */
 	
