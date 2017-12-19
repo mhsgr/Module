@@ -11,10 +11,6 @@ import com.sap.aii.mapping.api.Attachment;
  * @author Michael Havemester
  * @version 1.0
  * 
- * int	hashCode()
- * Uses the content IDs hashCode.
- * 
- * String	toString() 
  */
 
 public class AttachmentImpl implements Attachment {
@@ -29,7 +25,7 @@ public class AttachmentImpl implements Attachment {
 	 * @param contentId
 	 * @param content
 	 */
-	
+
 	public AttachmentImpl(String contentId, byte[] content) {
 		this.contentId   = contentId;
 		this.contentType = null;
@@ -57,6 +53,7 @@ public class AttachmentImpl implements Attachment {
 	 * Base64-encoded String.
 	 */
 	
+	@Override
 	public String getBase64EncodedContent() {
 		return DatatypeConverter.printBase64Binary(content);
 	}
@@ -66,6 +63,7 @@ public class AttachmentImpl implements Attachment {
 	 * Return the actual content of the attachment as byte array.
 	 */
 	
+	@Override
 	public byte[] getContent() {
 		return content;
 	}
@@ -75,6 +73,7 @@ public class AttachmentImpl implements Attachment {
 	 * Get the ContentId of the attachment. 
 	 */
 	
+	@Override
 	public String getContentId() {
 		return contentId;
 	}
@@ -84,6 +83,7 @@ public class AttachmentImpl implements Attachment {
 	 * Get the type of the attachment.
 	 */
 	
+	@Override
 	public String getContentType() {
 		return contentType;
 	}
@@ -95,6 +95,7 @@ public class AttachmentImpl implements Attachment {
 	 * @return true / false
 	 */
 	
+	@Override
 	public boolean equals(Object object) {
 		if (object instanceof Attachment) {
 			return contentId.equals(((Attachment) object).getContentId());
@@ -109,6 +110,7 @@ public class AttachmentImpl implements Attachment {
 	 * @return hash code
 	 */
 	
+	@Override
 	public int hashCode() { return contentId.hashCode(); }
 	
 	
@@ -118,6 +120,7 @@ public class AttachmentImpl implements Attachment {
 	 * @return String
 	 */
 	
+	@Override
 	public String toString() {
 		return "ContentId: " + contentId + "\n" +
 			   "ContentType: " + contentType + "\n" +
