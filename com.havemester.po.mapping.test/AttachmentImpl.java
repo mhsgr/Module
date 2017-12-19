@@ -6,10 +6,9 @@ import com.sap.aii.mapping.api.Attachment;
 
 
 /**
- * Implementation class for Attachment
+ * Implementation class of Attachment
  * 
- * <p>
- * Contains methods to read the attachments of the SAP PI / PO
+ * <p>Contains methods to read the attachments of the SAP PI / PO
  * message within the mapping.
  * 
  * @author Michael Havemester
