@@ -4,13 +4,16 @@ import javax.xml.bind.DatatypeConverter;
 
 import com.sap.aii.mapping.api.Attachment;
 
+
 /**
- * 
  * Implementation class for Attachment
+ * 
+ * <p>
+ * Contains methods to read the attachments of the SAP PI / PO
+ * message within the mapping.
  * 
  * @author Michael Havemester
  * @version 1.0
- * 
  */
 
 public class AttachmentImpl implements Attachment {
