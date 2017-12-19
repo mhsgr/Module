@@ -26,6 +26,7 @@ public class Trace extends AbstractTrace {
 	 * @param message for trace
  	 */
 	
+	@Override
 	public void addDebugMessage (String message) {
 		addTrace ("DEBUG", message, null);
 	}
@@ -39,6 +40,7 @@ public class Trace extends AbstractTrace {
 	 * @param throwable exception
  	 */
 	
+	@Override
 	public void addDebugMessage (String message, Throwable throwable) {
 		addTrace ("DEBUG", message, throwable);
 	}
@@ -50,6 +52,7 @@ public class Trace extends AbstractTrace {
 	 * @param message for trace
 	 */
 	
+	@Override
 	public void addInfo (String message) {
 		addTrace ("INFO", message, null);
 	}
@@ -63,6 +66,7 @@ public class Trace extends AbstractTrace {
 	 * @param throwable exception
 	 */
 	
+	@Override
 	public void addInfo (String message, Throwable throwable) {
 		addTrace ("INFO", message, throwable);
 	}
@@ -74,6 +78,7 @@ public class Trace extends AbstractTrace {
 	 * @param message for trace
 	 */
 	
+	@Override
 	public void addTestMessage (String message) {
 		addTrace ("TEST", message, null);
 	}
@@ -98,6 +103,7 @@ public class Trace extends AbstractTrace {
 	 * @param message for trace
 	 */
 	
+	@Override
 	public void addWarning (String message) {
 		addTrace ("WARNING", message, null);
 	}
@@ -111,6 +117,7 @@ public class Trace extends AbstractTrace {
 	 * @param throwable exception
 	 */
 	
+	@Override
 	public void addWarning (String message, Throwable throwable) {
 		addTrace ("WARNING", message, throwable);
 	}
@@ -123,6 +130,7 @@ public class Trace extends AbstractTrace {
 	 * @return true (always)
 	 */
 	
+	@Override
 	public boolean isLogging() {
 		return true;
 	}
