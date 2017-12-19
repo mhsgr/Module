@@ -3,6 +3,7 @@ package com.havemester.po.mapping.test;
 import com.sap.aii.mapping.api.AbstractTrace;
 import com.sap.aii.mappingtool.tf.rt.ResultListImpl;
 
+
 /**
  * Helper class for SAP PI / PO mapping trace
  * 
@@ -16,7 +17,6 @@ import com.sap.aii.mappingtool.tf.rt.ResultListImpl;
 
  * @author Michael Havemester
  * @version 1.0
- * 
  */
 
 public class TraceImpl extends AbstractTrace {
