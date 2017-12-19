@@ -22,7 +22,7 @@ public class AttachmentImpl implements Attachment {
 
 	
 	/**
-	 * Class constructor - attachment
+	 * Class constructor - AttachmentImpl
 	 * 
 	 * @param contentId
 	 * @param content
@@ -36,7 +36,7 @@ public class AttachmentImpl implements Attachment {
 
 	
 	/**
-	 * Class constructor - attachment
+	 * Class constructor - AttachmentImpl
 	 * 
 	 * @param contentId
 	 * @param contentType
