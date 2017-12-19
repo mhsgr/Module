@@ -18,7 +18,7 @@ import com.sap.aii.mappingtool.tf.rt.ResultListImpl;
  * of the message at runtime. For details see online documentation.
  */
 
-public class Trace extends AbstractTrace {
+public class TraceImpl extends AbstractTrace {
 	
 	/**
 	 * Add a message with trace level debug to the trace.
