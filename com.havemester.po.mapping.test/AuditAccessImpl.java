@@ -6,7 +6,7 @@ import com.sap.engine.interfaces.messaging.api.auditlog.AuditLogStatus;
 
 
 /**
- * Implementation class for AuditAccess
+ * Implementation class of AuditAccess
  * 
  * <p>The AuditAccess interface offers methods to write an AuditLogEntry to the memory
  * audit store with the given status. For performance reasons all AuditLogEntry
