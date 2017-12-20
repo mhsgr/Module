@@ -9,7 +9,9 @@ import com.sap.aii.mapping.api.WrongParameterTypeException;
 
 
 /**
- * Access to output parameters of the mapping.
+ * Implementation class of OutputParameters
+ * 
+ * <p>Methods to access output parameters of the mapping.
  * 
  * @author Michael Havemester
  * @version 1.0
