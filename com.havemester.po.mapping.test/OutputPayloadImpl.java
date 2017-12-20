@@ -6,7 +6,9 @@ import com.sap.aii.mapping.api.OutputPayload;
 
 
 /**
- * Access to the output payload of the mapping.
+ * Implementation class of OutputPayload
+ * 
+ * <p>Methods to access the output payload of the mapping.
  * 
  * @author Michael Havemester
  * @version 1.0
