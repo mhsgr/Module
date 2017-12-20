@@ -5,7 +5,7 @@ import com.sap.aii.mappingtool.tf.rt.ResultListImpl;
 
 
 /**
- * Helper class for SAP PI / PO mapping trace
+ * Implementation class of AbstractTrace
  * 
  * <p>A mapping can use an instance of AbstractTrace to add messages to the
  * trace. There are three trace levels info, warning and debug. You can
