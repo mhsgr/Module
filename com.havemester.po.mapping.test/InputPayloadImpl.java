@@ -20,8 +20,7 @@ public class InputPayloadImpl extends InputPayload {
 	 * 
 	 * <p>Set input payload as InputStream.
 	 * 
-	 * @param contentId
-	 * @param content
+	 * @param is InputStream
 	 */
 	
 	public InputPayloadImpl(InputStream is) {
