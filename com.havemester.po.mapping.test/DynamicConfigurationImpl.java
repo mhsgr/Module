@@ -13,7 +13,7 @@ import com.sap.aii.mapping.api.DynamicConfigurationKey;
 /**
  * Implementation class of DynamicConfiguration
  * 
- * A DynamicConfiguration is a map containing adapter specific message
+ * <p>A DynamicConfiguration is a map containing adapter specific message
  * attributes. It associates DynamicConfigurationKeys with string values.
  * 
  * @author Michael Havemester
