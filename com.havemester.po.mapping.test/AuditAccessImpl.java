@@ -36,8 +36,6 @@ import com.sap.engine.interfaces.messaging.api.auditlog.AuditLogStatus;
  *
  * @author Michael Havemester
  * @version 1.0
- * 
-
  */
 
 public class AuditAccessImpl implements AuditAccess {
