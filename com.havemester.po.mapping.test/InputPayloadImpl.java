@@ -6,7 +6,9 @@ import com.sap.aii.mapping.api.InputPayload;
 
 
 /**
- * Access to the input payload of the mapping.
+ * Implementation class of InputPayload
+ * 
+ * <p>Methods to access the input payload of the mapping.
  *
  * @author Michael Havemester
  * @version 1.0
