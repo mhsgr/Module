@@ -8,7 +8,9 @@ import com.sap.aii.mapping.api.InputHeader;
 
 
 /**
- * Access to fields of the message header.
+ * Implementation class of InputAttachments
+ * 
+ * <p>Methods to access fields of the message header.
  * 
  * @author Michael Havemester
  * @version 1.0
