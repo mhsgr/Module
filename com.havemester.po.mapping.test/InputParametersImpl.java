@@ -8,7 +8,9 @@ import com.sap.aii.mapping.lookup.Channel;
 
 
 /**
- * Access to input parameters of the mapping.
+ * Implementation class of InputAttachments
+ * 
+ * <p>Methods to access input parameters of the mapping.
  *
  * @author Michael Havemester
  * @version 1.0
