@@ -18,7 +18,9 @@ import com.sap.aii.mappingtool.tf7.rt.GlobalContainer;
 
 
 /**
- * An instance of this class enables you to cache the values that you want
+ * Implementation class of GlobalContainer
+ * 
+ * <p>An instance of this class enables you to cache the values that you want
  * to read again when you next call any user-defined function in the same
  * message mapping. A message mapping has exactly one global container
  * during the execution.
