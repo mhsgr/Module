@@ -10,7 +10,7 @@ import com.sap.aii.mapping.api.InputAttachments;
 /**
  * Implementation class of InputAttachments
  * 
- * Methods to read the attachments of the SAP PI / PO
+ * <p>Methods to read the attachments of the SAP PI / PO
  * message in the mapping.
  * 
  * @author Michael Havemester
