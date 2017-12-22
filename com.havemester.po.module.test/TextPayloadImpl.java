@@ -49,10 +49,11 @@ public class TextPayloadImpl implements TextPayload {
 
 	
 	/**
-	 * Set content as byte array into payload.
+	 * Sets the content as byte array into payload,
+	 * also specifying the encoding.
 	 * 
 	 * @param content payload as byte[]
-	 * @param enconding enconding of payload
+	 * @param encoding encoding of payload
 	 */
 
 	@Override
@@ -76,7 +77,8 @@ public class TextPayloadImpl implements TextPayload {
 
 	
 	/**
-	 * Set content as String into payload.
+	 * Sets the content as String, with the given
+	 * encoding.
 	 * 
 	 * @param text payload as String
 	 * @param encoding encoding of payload 
@@ -160,7 +162,7 @@ public class TextPayloadImpl implements TextPayload {
 	 * get with getInputStream or the content you can get
 	 * with getContent.
 	 * 
-	 * @return enconding
+	 * @return encoding
 	 */
 
 	@Override
@@ -244,7 +246,7 @@ public class TextPayloadImpl implements TextPayload {
 	/**
 	 * Set content as byte array into payload.
 	 * 
-	 * @param content
+	 * @param content byte[]
 	 */
 
 	@Override
