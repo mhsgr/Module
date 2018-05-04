@@ -282,7 +282,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getSenderParytAgency() {
-		return (String) map.get("SenderParytAgency");
+		return (String) map.get("SenderPartyAgency");
 	}
 
 	
