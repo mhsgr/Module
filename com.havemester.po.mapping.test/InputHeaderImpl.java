@@ -43,6 +43,19 @@ public class InputHeaderImpl extends InputHeader {
 	}
 
 	
+	
+	/**
+	 * Get map of all message properties.
+	 * 
+	 * @return map of all message properties
+	 */
+
+	public Map<String, Object> getMap() {
+		return map;
+	}
+
+	
+	
 	/**
 	 * Get a cloned map of all message properties.
 	 * 
@@ -125,7 +138,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getProcessingMode() {
-		return (String) map.get("getProcessingMode");
+		return (String) map.get("ProcessingMode");
 	}
 
 	
@@ -137,7 +150,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getReceiverInterface() {
-		return (String) map.get("getReceiverInterface");
+		return (String) map.get("ReceiverInterface");
 	}
 
 	
@@ -149,7 +162,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getReceiverInterfaceNamespace() {
-		return (String) map.get("getReceiverInterfaceNamespace");
+		return (String) map.get("ReceiverInterfaceNamespace");
 	}
 
 	
@@ -161,7 +174,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getReceiverParty() {
-		return (String) map.get("getReceiverParty");
+		return (String) map.get("ReceiverParty");
 	}
 
 	
@@ -173,7 +186,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getReceiverPartyAgency() {
-		return (String) map.get("getReceiverPartyAgency");
+		return (String) map.get("ReceiverPartyAgency");
 	}
 
 	
@@ -185,7 +198,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getReceiverPartyScheme() {
-		return (String) map.get("getReceiverPartyScheme");
+		return (String) map.get("ReceiverPartyScheme");
 	}
 
 	
@@ -197,7 +210,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getReceiverService() {
-		return (String) map.get("getReceiverService");
+		return (String) map.get("ReceiverService");
 	}
 
 	
@@ -209,7 +222,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getRefToMessageId() {
-		return (String) map.get("getRefToMessageId");
+		return (String) map.get("RefToMessageId");
 	}
 
 	
@@ -221,7 +234,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getSenderInterface() {
-		return (String) map.get("getSenderInterface");
+		return (String) map.get("SenderInterface");
 	}
 
 	
@@ -233,7 +246,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getSenderInterfaceNamespace() {
-		return (String) map.get("getSenderInterfaceNamespace");
+		return (String) map.get("SenderInterfaceNamespace");
 	}
 
 	
@@ -245,7 +258,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getSenderParty() {
-		return (String) map.get("getSenderParty");
+		return (String) map.get("SenderParty");
 	}
 
 	
@@ -257,7 +270,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getSenderPartyScheme() {
-		return (String) map.get("getSenderPartyScheme");
+		return (String) map.get("SenderPartyScheme");
 	}
 
 	
@@ -269,7 +282,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getSenderParytAgency() {
-		return (String) map.get("getSenderParytAgency");
+		return (String) map.get("SenderParytAgency");
 	}
 
 	
@@ -281,7 +294,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getSenderService() {
-		return (String) map.get("getSenderService");
+		return (String) map.get("SenderService");
 	}
 
 	
@@ -293,7 +306,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getTimeSent() {
-		return (String) map.get("getTimeSent");
+		return (String) map.get("TimeSent");
 	}
 
 	
@@ -305,7 +318,7 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getVersionMajor() {
-		return (String) map.get("getVersionMajor");
+		return (String) map.get("VersionMajor");
 	}
 
 	
@@ -317,6 +330,6 @@ public class InputHeaderImpl extends InputHeader {
 
 	@Override
 	public String getVersionMinor() {
-		return (String) map.get("getVersionMinor");
+		return (String) map.get("VersionMinor");
 	}
 }
